@@ -1,12 +1,12 @@
 class AicwVideo < Formula
   desc "Local-first video toolkit. CLI + MCP server + web hub for AI-planned shorts"
-  homepage "https://github.com/aicw-io/aicw-video"
+  homepage "https://github.com/aichatwatch/aicw-video"
   url "https://registry.npmjs.org/aicw-video/-/aicw-video-1.0.1.tgz"
   sha256 "9592602bd8cfe88d0475aacd74e3d8e582cef3259eeb94ee4ffad1e716feefd9"
   version "1.0.4"
   license "AGPL-3.0-only"
 
-  head "https://github.com/aicw-io/aicw-video.git", branch: "main"
+  head "https://github.com/aichatwatch/aicw-video.git", branch: "main"
 
   depends_on "ffmpeg-full"
   depends_on "node"
